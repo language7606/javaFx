@@ -1,8 +1,8 @@
 package common;
-
+	
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
-
+	
 public class BoardVO {
 	SimpleIntegerProperty boardNo;
 	SimpleStringProperty title;
@@ -78,6 +78,4 @@ public class BoardVO {
 	public SimpleStringProperty contentsProperty() {
 		return this.contents;
 	}
-	
-	
 }
