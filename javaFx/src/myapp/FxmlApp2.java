@@ -11,7 +11,9 @@ public class FxmlApp2 extends Application {
 		FXMLLoader loader = new FXMLLoader();
 		
 		loader.getController();
+		primaryStage.show();
 	}
+	
 	
 	public static void main(String[] args) {
 		Application.launch(args);
